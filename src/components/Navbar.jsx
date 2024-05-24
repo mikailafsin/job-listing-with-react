@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/images/logo.png";
 
 const Navbar = () => {
     return (
@@ -7,7 +8,7 @@ const Navbar = () => {
                 <div className="flex h-20 items-center justify-between">
                     <div className="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
                         <a className="flex flex-shrink-0 items-center mr-4" href="/index.html">
-                            <img className="h-10 w-auto" src="images/logo.png" alt="React Jobs" />
+                            <img className="h-10 w-auto" src={logo} alt="React Jobs" />
                             <span className="hidden md:block text-white text-2xl font-bold ml-2">React Jobs</span>
                         </a>
                         <div className="md:ml-auto">
